@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("bckgrnd.jpeg");
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+header{
+	margin: 30px auto 80px auto;
+	width: 80%;
+	text-align: center;
+}
+header ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+header li{
+	padding: 0 20px;
+	border-right: 1px solid grey;
+}
+header a, header a:hover, header a:visited{
+	text-decoration: none;
+	color: black;
+}
+section{
+	height:300px;
+	display: flex;
+	flex-direction: row;
+}
+section img{
+	flex: 1;
+}
+div.text_wrapper{
+	flex: 3;
+}
+div.icons_wrapper{
+	flex: 1;
+	margin-left: 30px;
+}
+section.gauche{
+	background-color: lightgrey;
+}
+section.droite{
+	background-color: grey;
+}
