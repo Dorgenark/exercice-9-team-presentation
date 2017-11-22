@@ -29,20 +29,28 @@ section{
 	height:300px;
 	display: flex;
 	flex-direction: row;
+	padding: 20px;
 }
 section img{
 	flex: 1;
 }
 div.text_wrapper{
-	flex: 3;
+	width: 50%;
 }
 div.icons_wrapper{
 	flex: 1;
 	margin-left: 30px;
+	color: black;
 }
 section.gauche{
 	background-color: lightgrey;
 }
 section.droite{
 	background-color: grey;
+}
+section.gauche img{
+	margin-right: 10px;
+}
+section.droite img{
+	margin-left: 10px;
 }
