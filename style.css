@@ -31,6 +31,8 @@ section{
 	display: flex;
 	flex-direction: row;
 	padding: 20px;
+	justify-content: center;
+	align-content: baseline;
 }
 section img{
 	flex: 1;
@@ -40,7 +42,11 @@ div.text_wrapper{
 }
 div.icons_wrapper{
 	flex: 1;
-	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15px;
+	justify-content: space-between;
 }
 section.gauche{
 	background: linear-gradient(to right, #B29800, #0D79FF);
