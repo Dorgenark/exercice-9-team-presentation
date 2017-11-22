@@ -5,6 +5,7 @@ body{
 	background-size: 100%;
 	background-position: center;
 	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
 }
 header{
 	margin: 30px auto 80px auto;
@@ -52,4 +53,8 @@ section.gauche img{
 }
 section.droite img{
 	margin-left: 10px;
+}
+
+h1{
+	font-family: 'Bitter', serif;
 }
