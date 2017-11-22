@@ -43,10 +43,10 @@ div.icons_wrapper{
 	margin-left: 30px;
 }
 section.gauche{
-	background-color: lightgrey;
+	background: linear-gradient(to right, #B29800, #0D79FF);
 }
 section.droite{
-	background-color: grey;
+	background: linear-gradient(to left, #B29800, #0D79FF);
 }
 section.gauche img{
 	margin-right: 10px;
