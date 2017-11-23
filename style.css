@@ -36,6 +36,7 @@ section{
 }
 section img{
 	flex: 1;
+	border-radius: 50%;
 }
 div.text_wrapper{
 	width: 50%;
@@ -46,7 +47,7 @@ div.icons_wrapper{
 	align-items: center;
 	justify-content: center;
 	padding: 0 15px;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 section.gauche{
 	background: linear-gradient(to right, #B29800, #0D79FF);
