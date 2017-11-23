@@ -22,6 +22,9 @@ header li{
 	padding: 0 20px;
 	border-right: 1px solid grey;
 }
+span li{
+	border-right: none;
+}
 header a, header a:hover, header a:visited{
 	text-decoration: none;
 	color: black;
@@ -35,18 +38,23 @@ section{
 	align-content: baseline;
 }
 section img{
-	flex: 1;
 	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+}
+div.img_wrapper{
+	flex: 1;
+	display: flex;
+	justify-content: center;
 }
 div.text_wrapper{
-	width: 50%;
+	flex: 2;
 }
 div.icons_wrapper{
 	flex: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0 15px;
 	justify-content: space-around;
 }
 section.gauche{
@@ -55,13 +63,13 @@ section.gauche{
 section.droite{
 	background: linear-gradient(to left, #B29800, #0D79FF);
 }
-section.gauche img{
-	margin-right: 10px;
-}
-section.droite img{
-	margin-left: 10px;
-}
-
 h1{
 	font-family: 'Bitter', serif;
+}
+footer img{
+	width: 100%;
+	display: block;
+}
+footer{
+	border: 5px solid black;
 }
